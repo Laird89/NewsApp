@@ -1,0 +1,85 @@
+.App {
+  background-color: #d7d7d7;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1.5rem;
+}
+
+.Border {
+  border-width: thin;
+  border: 1px solid;
+}
+
+.Card {
+  background-color: #f9f3ef;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.Header {
+  background-color: #1e293b; /* dark slate */
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Header h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.Tagline {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  opacity: 0.85;
+  color: #cbd5e1; /* light gray-blue */
+}
+
+.Container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.FilterBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f9f3ef;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.NewsTitle {
+  font-family: "Lato", sans-serif;
+  color: #1e293b;
+}
+
+a {
+  color: #2f466c;
+}
